@@ -1,14 +1,5 @@
 import { Router } from 'express'
-import fs from 'node:fs'
-import path from 'node:path'
-import { fileURLToPath } from 'node:url'
 import type { Registry, PackageSummary } from '../services/registry.js'
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url))
-
-function loadTemplate(name: string): string {
-  return fs.readFileSync(path.join(__dirname, 'templates', name), 'utf-8')
-}
 
 function renderPackageList(packages: PackageSummary[], total: number): string {
   const rows = packages
