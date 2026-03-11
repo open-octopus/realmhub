@@ -1,0 +1,40 @@
+{
+  "name": "@openoctopus/realmhub-server",
+  "version": "2025.1.0",
+  "description": "RealmHub — the Realm package marketplace for OpenOctopus",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "realmhub": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "lint": "oxlint ."
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "better-sqlite3": "^11.8.0",
+    "zod": "^3.24.0",
+    "consola": "^3.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "tsdown": "^0.12.0",
+    "vitest": "^4.0.0",
+    "@types/better-sqlite3": "^7.6.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "oxlint": "^0.16.0",
+    "supertest": "^7.0.0",
+    "@types/supertest": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
