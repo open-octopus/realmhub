@@ -46,12 +46,6 @@ interface VersionRow {
   published_at: string
 }
 
-interface FtsRow {
-  name: string
-  description: string
-  author: string
-}
-
 export class Registry {
   constructor(
     private db: Database.Database,
