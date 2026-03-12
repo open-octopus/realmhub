@@ -12,16 +12,16 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/open-octopus/realmhub/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/open-octopus/realmhub/ci.yml?style=for-the-badge&label=CI" alt="CI"></a>
   <a href="https://github.com/open-octopus/realmhub/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Status-Planned-yellow?style=for-the-badge" alt="Status"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Status-Alpha-orange?style=for-the-badge" alt="Status"></a>
   <a href="https://github.com/open-octopus/openoctopus"><img src="https://img.shields.io/badge/Core_Repo-OpenOctopus-6C3FA0?style=for-the-badge" alt="Core"></a>
   <a href="https://discord.gg/openoctopus"><img src="https://img.shields.io/badge/Discord-The_Reef-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
 ---
 
-> **Status: Planned** — Part of the OpenOctopus ecosystem roadmap (Phase 3).
-> Star this repo to follow progress.
+> **Status: Alpha** — Package registry with publish/search/download, API key auth, rate limiting, FTS, and HTML browser with 117 tests passing.
 
 ## What is RealmHub?
 
