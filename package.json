@@ -30,7 +30,7 @@
     "@types/better-sqlite3": "^7.6.0",
     "@types/express": "^5.0.0",
     "@types/node": "^22.0.0",
-    "oxlint": "^0.16.0",
+    "oxlint": "^1.53.0",
     "supertest": "^7.0.0",
     "@types/supertest": "^6.0.0"
   },
