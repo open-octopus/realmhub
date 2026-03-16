@@ -16,7 +16,7 @@
   <a href="https://github.com/open-octopus/realmhub/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License"></a>
   <a href="#"><img src="https://img.shields.io/badge/Status-Alpha-orange?style=for-the-badge" alt="Status"></a>
   <a href="https://github.com/open-octopus/openoctopus"><img src="https://img.shields.io/badge/Core_Repo-OpenOctopus-6C3FA0?style=for-the-badge" alt="Core"></a>
-  <a href="https://discord.gg/openoctopus"><img src="https://img.shields.io/badge/Discord-The_Reef-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://discord.gg/mwNTk8g5fV"><img src="https://img.shields.io/badge/Discord-The_Reef-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
 ---
@@ -248,7 +248,7 @@ pnpm check
 
 ## Contributing
 
-RealmHub is in the planning phase. Join [The Reef (Discord)](https://discord.gg/openoctopus) to discuss the design, or open an issue with ideas for the package format, registry API, or web UI.
+RealmHub is in the planning phase. Join [The Reef (Discord)](https://discord.gg/mwNTk8g5fV) to discuss the design, or open an issue with ideas for the package format, registry API, or web UI.
 
 See [CONTRIBUTING.md](https://github.com/open-octopus/.github/blob/main/CONTRIBUTING.md) for general guidelines.
 
