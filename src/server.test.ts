@@ -26,6 +26,13 @@ describe('Server', () => {
     expect(typeof res.body.uptime).toBe('number')
   })
 
+  it('should return an empty favicon response', async () => {
+    ctx = createTestApp()
+    const res = await request(ctx.app).get('/favicon.ico')
+    expect(res.status).toBe(204)
+    expect(res.text).toBe('')
+  })
+
   it('should return 404 for unknown API routes', async () => {
     ctx = createTestApp()
     const res = await request(ctx.app).get('/api/nonexistent')

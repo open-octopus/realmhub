@@ -49,6 +49,10 @@ function createAppWithDb(db: Database.Database, config: RealmHubConfig): AppCont
 
   const app = express()
 
+  app.get('/favicon.ico', (_req, res) => {
+    res.status(204).end()
+  })
+
   // Middleware
   app.use(createRateLimiter())
   app.use(express.json({ limit: '60mb' }))
