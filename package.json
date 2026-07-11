@@ -1,6 +1,7 @@
 {
   "name": "@openoctopus/realmhub-server",
   "version": "2025.1.0",
+  "packageManager": "pnpm@10.30.2",
   "description": "RealmHub — the Realm package marketplace for OpenOctopus",
   "type": "module",
   "main": "./dist/index.js",
